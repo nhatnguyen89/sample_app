@@ -13,4 +13,8 @@ class PagesController < ApplicationController
     @title="About"
     @header="About Us"
   end
+  def help
+    @title = "Help"
+    @header = "Help"
+  end
 end
